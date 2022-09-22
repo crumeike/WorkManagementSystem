@@ -1,0 +1,8 @@
+{
+  "hostName": "https://isbm.eflood.oiiecosystem.net/rest",
+  "channelId": "/example/publication",
+  "topic": "OIIE:S30:V1.1/CCOM-JSON:SyncWorkOrder:V1.0",
+  "authentication": 0,
+  "userName": "",
+  "password": ""
+}

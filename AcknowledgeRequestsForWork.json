@@ -1,0 +1,139 @@
+{
+  "$schema": "http://www.mimosa.org/ccom4/BOD/AcknowledgeRequestsForWork.json",
+  "acknowledgeRequestsForWork": {
+    "releaseID": "9.0",
+    "versionID": "1.0",
+    "applicationArea": {
+      "sender": {
+        "logicalID": "97186e9c-412f-4c4e-a198-7b03e8062884"
+      },
+      "creationDateTime": "2019-09-13T13:21:00Z",
+      "bODID": "21716f3c-2a86-498a-8369-91b01fee0935"
+    },
+    "dataArea": {
+      "acknowledge": {},
+      "requestsForWork": [
+        {
+          "requestForWork": {
+            "UUID": "d33cb180-e4f0-11de-8a39-0801200c9a66",
+            "presentLifecycleStatus": {
+              "UUID": "57ce4e30-8085-0137-4662-22000b499058",
+              "shortName": "In Progress"
+            },
+            "shortName": "Schedule Corrective Action",
+            "infoSource": {
+              "UUID": "19a137cf-a70d-2888-343a-bc1158bf7f9f"
+            },
+            "type": {
+              "UUID": "df036c45-65b6-40d5-9587-2e322fb2205e",
+              "shortName": "Request For Work"
+            },
+            "priorityLevelType": {
+              "UUID": "bb72ef71-d560-4a78-afc7-aeedbf4d1a4f",
+              "shortName": "Highest Priority Level",
+              "priorityScale": {
+                "numeric": "100"
+              },
+              "infoSource": {
+                "UUID": "cf3f3a8a-1e42-4f15-9288-9cf2241e163d"
+              }
+            },
+            "asset": {
+              "UUID": "242fac5c-e411-45a4-8888-9099b3c45cdb",
+              "shortName": "Cooling Fan Motor 68987-A",
+              "infoSource": {
+                "UUID": "70760255-67b5-47aa-afd1-2acf4eeedff8"
+              }
+            },
+            "workManagementType": {
+              "UUID": "dbc6bf24-86b6-42bc-87ac-17e421411838",
+              "shortName": "Maintenance, Condition-based",
+              "infoSource": {
+                "UUID": "cf3f3a8a-1e42-4f15-9288-9cf2241e163d"
+              }
+            },
+            "workTaskType": {
+              "UUID": "760c2b2b-dc3e-4e40-89c6-a346f6029276",
+              "shortName": "Replace",
+              "infoSource": {
+                "UUID": "cf3f3a8a-1e42-4f15-9288-9cf2241e163d"
+              }
+            },
+            "isAutomaticallyApproved": true,
+            "startBefore": {
+              "dateTime": "2019-06-03T11:20:00Z"
+            },
+            "endBefore": {
+              "dateTime": "2019-06-04T09:30:00Z"
+            },
+            "recommendation": {
+              "UUID": "dd0f73f7-0615-4a07-8e55-64f8a2aa738c",
+              "shortName": "Asset Condition Assessment",
+              "infoSource": {
+                "UUID": "19a137cf-a70d-2888-343a-bc1158bf7f9f"
+              }
+            },
+            "activeWork": {
+              "@@type": "WorkOrder",
+              "UUID": "28ead040-1f02-4654-b3c8-693d8ebe469f",
+              "shortName": "Work Order Name",
+              "priorityLevelType": {
+                "UUID": "bb72ef71-d560-4a78-afc7-aeedbf4d1a4f",
+                "shortName": "Highest Priority Level",
+                "priorityScale": {
+                  "numeric": "100"
+                },
+                "infoSource": {
+                  "UUID": "cf3f3a8a-1e42-4f15-9288-9cf2241e163d"
+                }
+              },
+              "workManagementType": {
+                "UUID": "dbc6bf24-86b6-42bc-87ac-17e421411838",
+                "shortName": "Maintenance, Condition-based",
+                "infoSource": {
+                  "UUID": "cf3f3a8a-1e42-4f15-9288-9cf2241e163d"
+                }
+              },
+              "workTaskType": {
+                "UUID": "760c2b2b-dc3e-4e40-89c6-a346f6029276",
+                "shortName": "Replace",
+                "infoSource": {
+                  "UUID": "cf3f3a8a-1e42-4f15-9288-9cf2241e163d"
+                }
+              },
+              "startBefore": {
+                "dateTime": "2019-06-03T11:20:00Z"
+              },
+              "endBefore": {
+                "dateTime": "2019-06-04T09:30:00Z"
+              },
+              "actualStart": {
+                "dateTime": "2019-06-03T11:20:00Z"
+              },
+              "actualEnd": {
+                "dateTime": "2019-06-04T09:30:00Z"
+              },
+              "asset": {
+                "UUID": "242fac5c-e411-45a4-8888-9099b3c45cdb",
+                "shortName": "Cooling Fan Motor 68987-A"
+              },
+              "workStatus": {
+                "UUID": "b6732f60-9051-4f4a-9d4d-b603a8963238",
+                "shortName": "Request converted to order",
+                "fullName": "CBM Request for work Converted to Order in SAP",
+                "type": {
+                  "UUID": "3a7c4682-ca5c-4ae8-bf7f-f05cad877639",
+                  "shortName": "Converted",
+                  "fullName": "Request Converted to Order",
+                  "infoSource": {
+                    "UUID": "cf3f3a8a-1e42-4f15-9288-9cf2241e163d"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
